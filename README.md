@@ -13,10 +13,10 @@ The code found here was developed during a computer vision based study of Vertic
 │   ├── learning
 │   ├── scripts
 │   └── utils.py
-├── breakpoint_algorithm
+├── breakpointAlgorithm
 │   ├── functions
 │   └── refraction_correction
-└── real_time_deployment
+└── realTimeDeployment
     ├── real_time_interpolation
     ├── scripts
     └── utils.py
@@ -35,7 +35,7 @@ Each of these sub-directories has the following items:
 
 The code found within these sub-directories includes further useful documentation.
 
-## real_time_deployment
+## realTimeDeployment
 
 Found here are the scripts to deploy FlowNet, FrameNet and VaporNet in real-time using a *Jetson Nano* micro-computer , as was done in [a related publication](https://www.mdpi.com/1424-8220/22/3/996).
 The items in this sub-directory are as follows:
@@ -46,7 +46,7 @@ The items in this sub-directory are as follows:
 
 The code found within these sub-directories includes further useful documentation.
 
-## breakpoint_algorithm
+## breakpointAlgorithm
 
 This sub-directory includes MatLab code used to detect the outline of bubble's from images of bubbly flow. This algorithm was used to detect the bubbles within a frame in order to calculate the void fraction observed within that frame. This work is detailed in my Master's thesis, which will be linked once finalised.
 The folders in this sub-directories are as follows:
